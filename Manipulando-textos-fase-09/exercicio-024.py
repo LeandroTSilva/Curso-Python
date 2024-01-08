@@ -4,7 +4,7 @@ Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o
 '''
 
 valorCidade = str(input('Em que cidade você Nasceu?\n')).strip()
-valorCidade.find('Santo', 0)
+valorCidade.find('Santo', 0,5)
 valorCidade = valorCidade.capitalize()
 print('Santo' in valorCidade)
 
