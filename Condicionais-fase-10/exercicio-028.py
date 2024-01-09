@@ -13,7 +13,7 @@ print('=-' * 20)
 print(' Advinhe o numero que Estou Pensado ')
 print('=-' * 20)
 
-numeroComputador = randint(0, 6)
+numeroComputador = randint(0, 5)
 
 palpiteUsuario = int(input('Chute um numero de entre 0 e 5 \n'))
 
