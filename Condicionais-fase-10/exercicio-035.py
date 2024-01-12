@@ -2,6 +2,10 @@
  Desenvolva um programa que leia o comprimento de três segmentos e diga ao usuário se elas podem ou não formar um triângulo.
 
 """
+print('=-=' * 20)
+print(' *** Curso Em Vídeo Geometria 1.0 *** ')
+print('=-=' * 20)
+
 
 segmento1 = float(input('Digite o segmento 1 \n'))
 segmento2 = float(input('Digite o segmento 2 \n'))
