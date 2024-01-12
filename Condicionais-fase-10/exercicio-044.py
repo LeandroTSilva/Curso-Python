@@ -39,4 +39,4 @@ elif formaPgto == 4:
     parcela = valorPrazo / numeroParcela
     print('Total a prazo R${:.2f}, 3 parcelas de R${:.2f}'.format(valorPrazo, parcela))
 else:
-    print(">>> Obrigado Pela Preferência <<< ")
+    print(">>> Opção inválida ! tente de novo <<< ")
