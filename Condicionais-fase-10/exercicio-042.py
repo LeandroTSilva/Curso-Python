@@ -7,7 +7,7 @@ DESAFIO 035 dos triângulos, acrescentando o recurso de mostrar que tipo de tri�
 
 
 
-Ante de conferir a correção, eu de fato fiz todas as possibilidades checando se segmento1 == segmento2 != segmento3 or etc...
+Antes de conferir a correção, eu de fato fiz todas as possibilidades checando se segmento1 == segmento2 != segmento3 or etc...
 o programa funcionou, mas a alternativa mais curta do professor Guanabara fez mais sentindo e optei por usá-la, pois deixa o código mais limpo
 """
 
