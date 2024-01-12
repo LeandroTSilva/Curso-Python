@@ -7,7 +7,9 @@ A Confederação Nacional de Natação precisa de um programa que leia o ano de 
 - Acima de 25 anos: MASTER
 
 """
-
+print('=-=' * 20)
+print(' *** Curso Em Vídeo Natação *** ')
+print('=-=' * 20)
 
 from datetime import date
 
