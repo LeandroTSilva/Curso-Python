@@ -7,7 +7,6 @@ Elabore um programa que calcule o valor a ser pago por um produto, considerando 
 
 """
 
-from turtle import end_fill
 
 
 print('=-=' * 20)
