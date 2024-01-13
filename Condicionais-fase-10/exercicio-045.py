@@ -62,6 +62,6 @@ elif computador == 2:
     elif jogador == 1:
         print('Computador Vence !!')
     else:
-        print('Entraa Inválida, tende de novo')
+        print('Entrada Inválida, tende de novo')
 else:
     print(' *** Fim de Jogo ***')
