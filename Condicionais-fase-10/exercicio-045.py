@@ -1,9 +1,6 @@
 """
 Crie um programa que faça o computador jogar Jokenpô com você.
 
-
-
-
 Neste exercício eu consegui densenvolver corretamente a lógica das condicionais aninhadas, Porém me atrapalhei na hora de randomizar e 
 exbir Pedra, Papel e Tesoura tanto para jogador quanto para computador.
 
@@ -13,10 +10,6 @@ revisar alguns modulos na documentação pode me ajudar na próxima
 
 
 from random import randint
-
-
-
-
 
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
@@ -28,8 +21,6 @@ Suas opções:
                     
 Qual a sua jogada?
 '''))
-
-
 
 
 print('Computador jogou {}'.format(itens[computador]))
