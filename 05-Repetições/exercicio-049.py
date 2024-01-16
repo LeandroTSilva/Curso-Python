@@ -31,7 +31,6 @@ if valorOperacao == 1:
 # Subtração
 elif valorOperacao == 2:
     print('Operação escolhida: Subtração')
-    print('Operação escolhida:'.format(valorOperacao))
     for c in range(0, 11):
         resto = valorEntrada - c
         print('{} - {} = {}'.format(valorEntrada, c, resto))
