@@ -20,7 +20,6 @@ Escolha a operação:
 # Adição
 if valorOperacao == 1:
     print('Operação escolhida: Adição')
-    print('Operação escolhida: {}'.format(valorOperacao))
     for c in range(0, 11):
         parcela = valorEntrada + c
         print('{} + {} = {}'.format(valorEntrada, c, parcela))
