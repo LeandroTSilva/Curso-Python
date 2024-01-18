@@ -1,7 +1,7 @@
 """
  Faça um programa que calcule a soma entre todos os números que são múltiplos de três e que se encontram no intervalo de 1 até 500.
 
-Não consegui fazer este exercício, pois travei nos acumuladores, preciso treinar mais exercicios como este conceito de acumuladores
+Não consegui fazer este exercício, pois travei nos acumuladores, preciso treinar mais exercicios com este conceito de acumuladores
 
 
 """
