@@ -17,9 +17,7 @@ for c in range(1, numEntrada + 1):
       print('\033[31m', end=(' '))
     print('{}'.format(c), end=' ')
 
-
 print('\n\33[mO numero {} foi divisível {} vezes'.format(numEntrada, cont))
-
 
 if cont == 2:
    print('Este numero é PRIMO')
