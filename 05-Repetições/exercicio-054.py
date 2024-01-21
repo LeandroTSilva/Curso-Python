@@ -9,7 +9,7 @@ anoAtual = date.today().year
 maiorIdade = 0
 menorIdade = 0
 
-for c in range(0+1, 8):
+for c in range(1, 8):
     anoNascimento = int(input('Ano de nascimento da {}ª pessoa \n'.format(c)))
     idade = anoAtual - anoNascimento
     if idade >= 18:
