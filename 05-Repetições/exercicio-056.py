@@ -36,4 +36,3 @@ print('-=' * 20)
 print('A média de idade é {}'.format(mediaIdade))
 print('O homem mais velho é o {} e sua idade é {}'.format(nomeMasculinoMaiorIdade, maiorIdadeMasculino))
 print('Total de mulheres menor de 20 anos é {} e elas são: {}'.format(totalMulheresMenor20))
-   
