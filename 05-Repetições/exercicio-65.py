@@ -7,7 +7,6 @@ O programa deve perguntar ao usuário se ele quer ou não continuar a digitar va
 
 fim = False
 total = cont = media = maior = menor = 0
-num = 0
 while fim == False:
     num = int(input('Digite um numero: '))
     total += num
