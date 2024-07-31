@@ -1,18 +1,21 @@
-'''
- Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
+"""
+Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
 
-'''
-
-
-_valorPrimeiroTermo = int(input('Digite o valor para o 1º da PA: '))
-_valorRazao = int(input('Digite agora o valor para Razão PA: '))
-_valorTermo = _valorPrimeiroTermo
-_cont = 1
-
-while _cont <= 10:
-    print('{} -> '.format(_valorTermo), end='')
-    _valorTermo += _valorRazao
-    _cont += 1
+"""
+print('-' * 12)
+print('GERADOR DE P.A (PROGRESSÃO ARITIMÉTICA)')
+print('-' * 12)
 
 
-print('\n =====  Fim do Programa  ===== ')
+termo01 = int(input('Digite o valor do 1º termo \n'))
+razao = int(input('Digite agora o valor da Razão \n'))
+cont = 1
+
+while cont <= 10:
+     print('{} -> '.format(termo01), end='')
+     termo01 += razao
+     cont += 1
+
+
+print('\n *** fim do programa ***')
+
