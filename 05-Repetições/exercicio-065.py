@@ -23,7 +23,7 @@ while fim == False:
     fim = input('Deseja continuar? [S/N] ').lower().strip()[0]
     if fim == 's':
         fim = False
-    elif fim =='n':
+    elif fim == 'n':
         fim = True
 
 media = total / cont
