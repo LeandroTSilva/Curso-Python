@@ -6,11 +6,10 @@ C) quantas mulheres tem menos de 20 anos.
 
 """
 menorIdade = 0
-parar = True
 contHomem = 0
 contMulherMenor20 = 0
 
-while parar == True:
+while True:
     idade = int(input('Olá qual sua idade \n'))
     sexo = input('Qual o seu sexo? [M] - Masculino / [F] - Feminino \n').strip().lower()[0]
 
@@ -25,10 +24,8 @@ while parar == True:
 
 
     parar = input('Deseja fazer um novo cadastro? S-Sim | N-Não \n').strip().lower()[0]
-    if parar == 's':
-        parar = True
-    elif parar == 'n':
-        para = False
+    if parar == 'n':
+        break
 
 print(f'Temos {menorIdade} pessoas, menores de 18 anos de idade')
 print(f'Total homens cadastrados: {contHomem}')
