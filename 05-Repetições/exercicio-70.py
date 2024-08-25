@@ -19,10 +19,7 @@ while True:
 
     if precoProduto > 1000:
         somaMaiorMil +=1
-
-    if nomeProduto and precoProduto <= precoProduto:
-        maisBarato = nomeProduto
-
+        
     if cont == 1 or precoProduto < menorPreco:
         menorPreco = precoProduto
         maisBarato = nomeProduto
